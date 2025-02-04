@@ -1,0 +1,35 @@
+:root{
+    --background-image: url(miraculous-1920-x-1080-background-xpurcsrfqup9lcxw.jpg);
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--background-image);
+    
+} 
+
+ 
+#imagem{
+    padding: 8px 16px;
+    font-size: 24px;
+
+}
+
+
+#trocar-imagem{
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
